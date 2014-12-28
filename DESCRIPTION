@@ -1,0 +1,7 @@
+Add a led on pin PB1 with 330ohm resistor in series
+
+add power on reset circuitry
+
+por can be enabled by just adding a 104 between rst and gnd
+
+test if l293d can be controlled without adding 47uf capacitor between agnd and avcc if it can be then don't don any changes otherwise add the capacitor
